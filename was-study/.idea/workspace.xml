@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46df8c66-63a6-4f1b-a4cb-cd73c6ac80b1" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ClientRequestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../oop-study/src/main/java/org/example/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oop-study/src/main/java/org/example/customer/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/example/CustomWebApplicationServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/example/CustomWebApplicationServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CustomWebApplicationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CustomWebApplicationServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690814953810</updated>
       <workItem from="1690814954611" duration="8327000" />
-      <workItem from="1690982352593" duration="4161000" />
+      <workItem from="1690982352593" duration="4744000" />
     </task>
     <servers />
   </component>
