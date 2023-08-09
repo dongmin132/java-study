@@ -1,0 +1,52 @@
+ª17:08:01.781 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e
+Å17:08:01.794 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+a17:08:01.796 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+i17:08:01.814 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+h17:08:01.814 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+h17:08:01.814 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+h17:08:01.815 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+h17:08:01.815 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+i17:08:01.815 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+h17:08:01.816 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+h17:08:01.816 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+h17:08:01.816 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+w17:08:01.818 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+s17:08:01.823 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.h2.Driver"
+h17:08:01.824 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+f17:08:01.824 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+h17:08:01.824 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+j17:08:01.825 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+e17:08:01.825 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+i17:08:01.825 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+®17:08:01.826 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:h2:mem://localhost/~/jdbc-practice;MODE=MySQL;DB_CLOSE_DELAY=-1
+e17:08:01.826 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+e17:08:01.826 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+k17:08:01.827 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+f17:08:01.828 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+h17:08:01.828 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+h17:08:01.829 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+f17:08:01.829 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+l17:08:01.829 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+r17:08:01.830 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+i17:08:01.830 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+i17:08:01.830 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+h17:08:01.831 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+h17:08:01.831 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+l17:08:01.831 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+k17:08:01.831 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+h17:08:01.832 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - username........................"sa"
+h17:08:01.832 [Test worker] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+a17:08:01.832 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+†17:08:02.130 [Test worker] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem://localhost/~/jdbc-practice user=SA
+f17:08:02.133 [Test worker] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+ó17:08:02.140 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - Executing SQL script from class path resource [db_schema.sql]
+ò17:08:02.149 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - 0 returned as update count for SQL: DROP TABLE IF EXISTS USERS
+ì17:08:02.159 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - 0 returned as update count for SQL: CREATE TABLE USERS ( userId varchar(12) NOT NULL, password varchar(12) NOT NULL, name varchar(20) NOT NULL, email varchar(50), PRIMARY KEY (userId) )
+†17:08:02.159 [Test worker] DEBUG org.springframework.jdbc.datasource.init.ScriptUtils - Executed SQL script from class path resource [db_schema.sql] in 19 ms.
+î17:08:02.240 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+≥17:08:02.246 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn3: url=jdbc:h2:mem://localhost/~/jdbc-practice user=SA
+≥17:08:02.270 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn4: url=jdbc:h2:mem://localhost/~/jdbc-practice user=SA
+≥17:08:02.288 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn5: url=jdbc:h2:mem://localhost/~/jdbc-practice user=SA
+≥17:08:02.303 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn6: url=jdbc:h2:mem://localhost/~/jdbc-practice user=SA
+≥17:08:02.316 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn7: url=jdbc:h2:mem://localhost/~/jdbc-practice user=SA
+≥17:08:02.331 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn8: url=jdbc:h2:mem://localhost/~/jdbc-practice user=SA
